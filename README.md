@@ -1,6 +1,6 @@
 # helm-secret-example
 
-# helm plugin install https://github.com/zendesk/helm-secrets
+#helm plugin install https://github.com/zendesk/helm-secrets
 
 #gpg --gen-key
 
@@ -10,7 +10,7 @@ copy the fingerprint from the above command
 helm secret will also provide us the SOPS
 
 
-# sops -p <fingerprint> secrets.yaml
+#sops -p <fingerprint> secrets.yaml
 
 <delete all the data >
 
