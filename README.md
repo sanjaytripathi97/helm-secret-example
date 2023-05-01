@@ -10,9 +10,9 @@ copy the fingerprint from the above command
 helm secret will also provide us the SOPS
 
 
-#sops -p <fingerprint> secrets.yaml
+#sops -p fingerprint-paste-here secrets.yaml
 
-<delete all the data >
+delete all the data 
 
 and put the below line 
 
